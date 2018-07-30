@@ -1,0 +1,55 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../images/food.png');
+}
+
+.main {
+  display:flex;
+  flex-direction:column;
+   max-width:70vw;
+   margin:0 auto;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.half-section {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:7%;
+}
+
+h1 {
+  font-size:4em;
+  color:darkslateblue;
+  padding-bottom:5%;
+}
+
+h2 {
+  color:rebeccapurple;
+  text-decoration:underline;
+}
+
+
+h1, h2{
+  margin:0 auto;
+}
+
+li {
+list-style:none;
+background-color:darkcyan;
+margin-top:3%;
+}
+
+ul {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+
